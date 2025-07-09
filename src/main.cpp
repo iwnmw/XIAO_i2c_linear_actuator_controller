@@ -72,8 +72,10 @@ void setup() {
  
 void loop() {
   // Print for debugs
-  Serial.print("Left Leg: "); Serial.print(leftLeg);
-  Serial.print(" | Right Leg: "); Serial.println(rightLeg);
+  //Serial.print("Left Leg: "); Serial.print(leftLeg);
+  //Serial.print(" | Right Leg: "); Serial.println(rightLeg);
+
+  // Small Delay for Actual Operation; Increase for Debuggin if Necessary
   delay(5);
 
   // Output Motion Commands (mm conversion and base height subtraction already occur in ros2)
